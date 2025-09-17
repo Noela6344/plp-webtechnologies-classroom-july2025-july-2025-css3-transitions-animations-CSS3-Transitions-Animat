@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bringing Web Pages to Life</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🎬 Bringing Web Pages to Life</h1>
+
+  <!-- =====================
+       Part 1: CSS Animations
+       ===================== -->
+  <section>
+    <h2>✨ CSS Transitions & Animations</h2>
+    <button class="hover-btn">Hover Over Me</button>
+    <div class="fade-box">I fade in on page load 🎨</div>
+    <div class="slide-box">I keep sliding left and right 🔄</div>
+  </section>
+
+  <!-- ==========================
+       Part 2 + 3: JS Functions
+       ========================== -->
+  <section>
+    <h2>📚 JavaScript Functions + Interactivity</h2>
+
+    <!-- Animate Box -->
+    <div id="animatedBox" class="box"></div>
+    <button id="animateBtn">Click to Animate Box</button>
+
+    <!-- Calculator using functions -->
+    <h3>Calculate Area of a Rectangle</h3>
+    <input type="number" id="width" placeholder="Enter Width">
+    <input type="number" id="height" placeholder="Enter Height">
+    <button id="calcBtn">Calculate</button>
+    <p id="result"></p>
+  </section>
+
+  <!-- ==========================
+       Part 3: Modal Popup
+       ========================== -->
+  <section>
+    <h2>🎨 Modal Triggered by JS</h2>
+    <button id="openModal">Open Modal</button>
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <p>🚀 Hello! This modal is animated with CSS & triggered by JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
